@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+}
+
+body{
+    background-color: #1E2233;
+}
+
+main{
+    background-color: #2B3047;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 15px 10px 10px rgb(000, 000, 000, 0.2);
+    text-align: center;
+}
+
+h1{
+    color: yellow;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-cards{
+    background-color: #D7ECFB;
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 20px 10px 10px rgb(000, 000, 000, 0.2); 
+}
+
+.pokemon-img{
+    height: 70px;
+    width: 70px;
+}
+
+.pokemon-cards h2{
+    font-weight: bold;
+    color: #2B3047;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.pokemon-cards p{
+    color:  #2B3047;
+    font-weight: bold;
+}
+
+.vs{
+    background-color: transparent;
+    font-size: 20px;
+    color: brown;
+}
+
+.btn{
+    background-color: #8B6BFD;
+    color:  #FFFFFF;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.vencedor{
+    color: #9FF3AA;
+}
