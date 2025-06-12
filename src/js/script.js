@@ -9,7 +9,7 @@ let pokemonExperience2 = document.getElementById("pokemonExperience2")
 let btnBatalhar = document.getElementById("btnBatalhar")
 let vencedor = document.getElementById("vencedor")
 
-let searchPokemon = 1
+let searchPokemon = Math.floor(Math.random() * 850) + 1;  
 
     function pokebola(pokemonId){
     fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`)
@@ -51,7 +51,7 @@ let searchPokemon = 1
     pokebola2(searchPokemon)
      if (Number(pokemonExperience.innerText) < Number(pokemonExperience2.innerText)) {
         vencedor.innerText = `🏆Vencedor: ${pokemonName2.innerText}`
-    }else if(Number(pokemonExperience.innerText) == Number(pokemonExperience.innerText)){
+    }else if(Number(pokemonExperience.innerText) == Number(pokemonExperience2.innerText)){
          vencedor.innerText = "Empate"
     }else{
         vencedor.innerText = `🏆Vencedor: ${pokemonName.innerText}`
@@ -63,3 +63,4 @@ let searchPokemon = 1
 
 pokebola(123)
 pokebola2(204)
+
