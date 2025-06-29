@@ -17,8 +17,7 @@
 ## 💻 Sobre o Projeto
 
 Este projeto foi criado como desafio durante o curso de **JavaScript**.  
-A proposta é simular uma batalha entre dois Pokémon, usando dados reais da **PokéAPI** para comparar a experiência de cada um.  
-O Pokémon com mais experiência vence a batalha, e se os valores forem iguais, o resultado é um empate.  
+A proposta é simular uma batalha entre dois Pokémon, usando dados reais da **PokéAPI** para comparar a experiência de cada um.  O Pokémon com mais experiência vence a batalha, e se os valores forem iguais, o resultado é um empate.  
 
 ## 📄 Descrição do entregável
 
