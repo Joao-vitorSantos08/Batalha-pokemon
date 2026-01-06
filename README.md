@@ -57,7 +57,13 @@ A proposta é simular uma batalha entre dois Pokémon, usando dados reais da **P
  
 - **Git** – Controle de versão  
 - **GitHub** – Hospedagem e gerenciamento do código-fonte  
-- **Visual Studio Code** – Editor de código usado no desenvolvimento 
+- **Visual Studio Code** – Editor de código usado no desenvolvimento
+
+## 🌐 Acesse o Site Online
+
+Você pode visualizar o projeto diretamente no navegador sem precisar baixar:
+
+➡️ [Clique aqui para acessar]( https://joao-vitorsantos08.github.io/Batalha-pokemon/) 
 
 <!-- MODELO DE COMO CONTRIBUIR PARA O PROJETO -->
 ## 💪 Como contribuir para o projeto
